@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int wei1;
+    int wei2;
+    cin>>wei1;
+    cin>>wei2;
+    int years=0;
+    while(wei1<=wei2)
+    {
+        years++;
+        wei1*=3;
+        wei2*=2;
+    }
+    cout<<years;
+    cout<<endl;
+    return 0;
+}
